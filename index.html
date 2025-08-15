@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web macOS Monterey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div id="top-bar">
+    <div id="menu-left">
+      <span class="menu-item"></span>
+      <span class="menu-item">Finder</span>
+    </div>
+    <div id="menu-right">
+      <span id="clock"></span>
+    </div>
+  </div>
+
+  <!-- Desktop -->
+  <div id="desktop">
+    <div class="icon" data-app="Finder">📁<span>Finder</span></div>
+    <div class="icon" data-app="Calculator">🧮<span>Calculator</span></div>
+    <div class="icon" data-app="Notes">📝<span>Notes</span></div>
+  </div>
+
+  <!-- Dock -->
+  <div id="dock">
+    <div class="dock-icon" data-app="Finder">📁</div>
+    <div class="dock-icon" data-app="Calculator">🧮</div>
+    <div class="dock-icon" data-app="Notes">📝</div>
+  </div>
+
+  <!-- App Windows -->
+  <div id="apps-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
